@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JADWAL MAPEL</title>
+    <style>
+        /* warna dan ukuran bisa di sesuaikan sendiri */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(248, 203, 203) ;
+        }
+
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: separate;
+            text-align: center;
+            padding: 8px;
+            border-spacing: 5px;
+        }
+
+
+
+
+        table {
+            width: 80%;
+            background-color: rgba(241, 241, 241, 0.425) ;
+		   Margin-top: 100px;
+
+
+        }
+
+
+
+
+        th,
+        td {
+            background-color: ;
+        }
+
+
+
+
+        caption {
+            font-size: 30px;
+            /* font-family: ; */
+            font-weight: 900;
+            color: ;
+        }
+    </style>
+</head>
+
+
+<body>
+    <table>
+        <caption>jadwal pelajaran</caption>
+     
+        <!-- HEADER -->
+        <!-- Day, Seminar, Schedule (Begin, End), Topic -->
+        <tr style="background-color: rgb(245, 140, 175);">
+            <th rowspan=3">DAY</th>
+            <th colspan="3">SUBJECT 9B</th>
+        </tr>
+        <tr style="background-color: antiquewhite;">
+            <th colspan="2">JADWAL</th>
+            <th rowspan="2">MATPEL</th>
+        </tr>
+        <tr style="background-color: antiquewhite;">
+            <th>BEGIN</th>
+            <th>END</th>
+        </tr>
+
+        <!-- CONTENT DAY -->
+        <!-- Jadwal Senin-Jumat beserta waktu dan Mapelnya -->
+        <!-- senin -->
+        <tr>
+            <th rowspan="6" style="background-color: beige;">SENIN</th>
+            <td>07.30</td>
+            <td>08.30</td>
+            <td>Agama</td>
+         </tr>
+         <tr>
+            <td>08.50</td>
+            <td>10.10</td>
+            <td>IPA</td>
+         </tr>
+         <tr>
+            <th colspan="3" style="background-color: rgb(255, 124, 124);">break 20 mnt</th>
+
+         </tr>
+         <tr>
+            <td>10.30</td>
+            <td>11.50</td>
+            <td>IPA</td>
+         </tr>
+          <th colspan="3" style="background-color: rgb(255, 124, 124);">break 60 mnt</th>
+        <tr>
+             <td>12.50</td>
+            <td>14.00</td>
+            <td>Bahasa inggris</td>
+        </tr>
+
+        <!-- selasa -->
+        <tr>
+            <th rowspan="6"style="background-color: beige;">SELASA</th>
+            <td>07.30</td>
+            <td>08.30</td>
+            <td>Bahasa ingris</td>
+         </tr>
+         <tr>
+            <td>08.50</td>
+            <td>10.10</td>
+            <td>IPS</td>
+         </tr>
+         <tr>
+            <th colspan="3" style="background-color: rgb(255, 124, 124);">break 20 mnt</th>
+
+         </tr>
+         <tr>
+            <td>10.30</td>
+            <td>11.50</td>
+            <td>Bahasa indonesia</td>
+         </tr>
+          <th colspan="3" style="background-color: rgb(255, 124, 124);">break 60 mnt</th>
+        <tr>
+             <td>12.50</td>
+            <td>14.00</td>
+            <td>Informatika</td>
+        </tr>
+        <!-- RABU -->
+        <tr>
+            <th rowspan="6"style="background-color: beige;">RABU</th>
+            <td>07.30</td>
+            <td>08.30</td>
+            <td>IPA</td>
+         </tr>
+         <tr>
+            <td>08.50</td>
+            <td>10.10</td>
+            <td>Coding</td>
+         </tr>
+         <tr>
+            <th colspan="3" style="background-color: rgb(255, 124, 124);">break 20 mnt</th>
+
+         </tr>
+         <tr>
+            <td>10.30</td>
+            <td>11.50</td>
+            <td>Bahasa Indonesia</td>
+         </tr>
+          <th colspan="3" style="background-color: rgb(255, 124, 124);">break 60 mnt</th>
+        <tr>
+             <td>12.50</td>
+            <td>14.00</td>
+            <td>Matematika</td>
+        </tr>
+        <!-- kamis -->
+        <tr>
+            <th rowspan="6"style="background-color: beige;">KAMIS</th>
+            <td>07.30</td>
+            <td>08.30</td>
+            <td>PJOK</td>
+         </tr>
+         <tr>
+            <td>08.50</td>
+            <td>10.10</td>
+            <td>Matematika</td>
+         </tr>
+         <tr>
+            <th colspan="3" style="background-color: rgb(255, 124, 124);">break 20 mnt</th>
+
+         </tr>
+         <tr>
+            <td>10.30</td>
+            <td>11.50</td>
+            <td>Matematika</td>
+         </tr>
+          <th colspan="3" style="background-color: rgb(255, 124, 124);">break 60 mnt</th>
+        <tr>
+             <td>12.50</td>
+            <td>14.00</td>
+            <td>Bahasa Indonesia</td>
+        </tr>
+        <!-- jumat -->
+        <tr>
+            <th rowspan="6"style="background-color: beige;">JUMAT</th>
+            <td>07.30</td>
+            <td>08.30</td>
+            <td>IPS</td>
+         </tr>
+         <tr>
+            <td>08.50</td>
+            <td>10.10</td>
+            <td>Seni rupa</td>
+         </tr>
+         <tr>
+            <th colspan="3" style="background-color: rgb(255, 124, 124);">break 20 mnt</th>
+
+         </tr>
+         <tr>
+            <td>10.30</td>
+            <td>11.50</td>
+            <td>PPKN</td>
+         </tr>
+          <th colspan="3" style="background-color: rgb(255, 124, 124);">break 60 mnt</th>
+        <tr>
+             <td>12.50</td>
+            <td>14.00</td>
+            <td>PPKN</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
